@@ -1,11 +1,14 @@
 <template>
-    <div>
-        <div class="flex justify-center gap-2 mt-2">
-            <router-link :to="{name: 'byLetter', params: {letter}}" v-for="letter of letters" :key="letter">
+    <div class="flex justify-center mt-2">
+        <div class="bg-white rounded-md w-fit p-3">
+            <div class="flex justify-center gap-2">
+                <router-link :to="{name: 'byLetter', params: {letter}}" v-for="letter of letters" :key="letter">
                 {{ letter }}
-            </router-link>
+                </router-link>
+            </div>
         </div>
     </div>
+    
 
     <Meals :meals="meals"/>
 </template>

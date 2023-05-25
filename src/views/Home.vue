@@ -1,8 +1,9 @@
 <template>
-    <div class="p-8 flex flex-col">
-        
-       
-
+    <div class="p-8 flex flex-col items-center">
+        <h1 class="font-bold text-yellow-400 text-7xl pb-10">Search your Tasty</h1>
+        <div class="flex justify-center w-2/4">
+            <img src="https://cdn.store-assets.com/s/190466/i/10515970.jpeg" alt="front-img" class="rounded-full shadow-sm">
+        </div>
     </div>
 </template>
 
